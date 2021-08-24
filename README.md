@@ -30,6 +30,7 @@ Here I describe tests of the board's features.
  - In LilyGO/ TTGO-TAudio repo
  - In issues of LilyGO/ TTGO-TAudio repo
  - Faust project
+ - Phil Schatzmann repos, pschatzmann
 
 ## Learning experiences during trials to upload some demos
 
