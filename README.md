@@ -19,7 +19,9 @@ Here I describe tests of the board's features.
  - Battery
    - charging function? 
  - On/off switch
- - Push buttons (4x) 
+ - Push buttons (4x)
+ - Audio in over BT  ?
+ - Audio out over BT ? (this could also be done with other boards) 
 
 ## Learning experiences during trials to upload some demos
 
