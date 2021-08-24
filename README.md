@@ -6,7 +6,20 @@ When powered, the device runs a lightshow on the LED array.
 Here I describe tests of the board's features.
 
 ## Features of the board
-
+ - Play sound WM...                  TESTED OK, .....ino
+   - control volume (L/R channels?) 
+ - Microphone
+ - Recording function
+ - SD card
+   - read / write 
+ - Play synthesized sound
+ - LED array
+   - original light show erased 
+ - Gyroscope, ...., .....
+ - Battery
+   - charging function? 
+ - On/off switch
+ - Push buttons (4x) 
 
 ## Learning experiences during trials to upload some demos
 
