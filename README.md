@@ -3,6 +3,11 @@
 Got shipped a TTGO TAudio 9 V1.6
 When powered, the device runs a lightshow on the LED array.
 
+Here I describe tests of the board's features.
+
+## Features of the board
+
+
 ## Learning experiences during trials to upload some demos
 
 - The docs on the Github page suggests a demo on playing mp3 sound from an SD card. Burning this firmware and running did not succeed. 
