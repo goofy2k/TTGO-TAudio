@@ -23,8 +23,11 @@ Here I describe tests of the board's features.
  - On/off switch
  - Push buttons (4x)
  - Audio in over BT  ?
- - Audio out over BT ? (this could also be done with other boards) 
- - 
+ - Audio out over BT ? (this feature is not specific for this board, REMARK) 
+
+
+REMARK: is it possible to stream / synthesize sound on a board without a WM8978 and send it over BT to a wireless speaker?  
+
 ## Sources of examples
  - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h)
  - In LilyGO/ TTGO-TAudio repo
