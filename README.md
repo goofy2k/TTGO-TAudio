@@ -47,3 +47,7 @@ REMARK: is it possible to stream / synthesize sound on a board without a WM8978 
   - Because of updates in the Audio.h library you need to use the code in a response by arifshanji (file available in repo)
   - You need to download the correct Audio.h: https://github.com/schreibfaul1/ESP32-audioI2S. This is NOT available from the Arduino IDE
 - Need a special USB driver (CH341SER) before serial interface can be used for firmware uploads.
+
+### From WM8978 datasheet (available in repo)
+
+The WM8978 is a low power stereo codec with integrated pre-amps for stereo differential mics and includes drivers for speakers, headphone and differential or stereo line output. External component requirements are reduced as no separate microphone or headphone amplifiers are required. Advanced on-chip digital signal processing includes a five-band equalizer, a mixed-signal automatic level control for the microphone or line input through the A/D converter, as well as a purely digital limiter function for record or playback. Additional digital filtering options are available in the ADC path to provide application filtering such as ‘wind noise reduction.’ The WM8978 codec can operate as a main or secondary device. An internal PLL can generate all required audio clocks for the codec from common reference clock frequencies, such as 12 and 13 MHz. Individual sections of the chip can also be powered down under software control.
