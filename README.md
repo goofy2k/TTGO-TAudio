@@ -25,7 +25,7 @@ Here I describe tests of the board's features.
  - Audio in over BT  ?
  - Audio out over BT ? (this could also be done with other boards) 
  - 
-## Examples
+## Sources of examples
  - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h)
  - In LilyGO/ TTGO-TAudio repo
  - In issues of LilyGO/ TTGO-TAudio repo
