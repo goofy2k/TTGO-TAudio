@@ -6,22 +6,30 @@ When powered, the device runs a lightshow on the LED array.
 Here I describe tests of the board's features.
 
 ## Features of the board
- - Play sound WM...                  TESTED OK, .....ino
-   - control volume (L/R channels?) 
- - Microphone
+ - Play sound WM8978                  TESTED OK, .....ino
+   - over headphone jack,  control volume (main, L/R channels?)
+   - over board speakers,  control volume (main, L/R channels?)
+ - Microphone           ,  control volume? 
  - Recording function
  - SD card
    - read / write 
  - Play synthesized sound
+   - use Faust for synthesis? 
  - LED array
    - original light show erased 
- - Gyroscope, ...., .....
+ - Gyroscope, orientation sensors, .....
  - Battery
    - charging function? 
  - On/off switch
  - Push buttons (4x)
  - Audio in over BT  ?
  - Audio out over BT ? (this could also be done with other boards) 
+ - 
+## Examples
+ - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h)
+ - In LilyGO/ TTGO-TAudio repo
+ - In issues of LilyGO/ TTGO-TAudio repo
+ - Faust project
 
 ## Learning experiences during trials to upload some demos
 
