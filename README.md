@@ -32,7 +32,7 @@ REMARK: is it possible to stream / synthesize sound on a board without a WM8978 
  - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h)
  - In LilyGO/ TTGO-TAudio repo
  - In issues of LilyGO/ TTGO-TAudio repo
- - Faust project https://faust.grame.fr/  or Faust for ESP32: https://hal.archives-ouvertes.fr/hal-02988312/document
+ - Faust project https://faust.grame.fr/  or Faust for ESP32: https://hal.archives-ouvertes.fr/hal-02988312/document (faust2esp32, https://faustdoc.grame.fr/tutorials/esp32/)
  - Phil Schatzmann repos, pschatzmann https://github.com/pschatzmann
  - Google: TTGO-TAudio use cases / examples / projects
 
