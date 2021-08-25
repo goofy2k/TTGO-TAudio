@@ -9,6 +9,7 @@ Here I describe tests of the board's features.
  - Play sound WM8978                  TESTED OK, .....ino
    - over headphone jack,  control volume (main, L/R channels?)
    - over board speakers,  control volume (main, L/R channels?)
+   - equalizer
  - Microphone           ,  control volume? 
  - Recording function
  - SD card
