@@ -6,7 +6,7 @@ When powered, the device runs a lightshow on the LED array.
 Here I describe tests of the board's features.
 
 ## Features of the board
- - Play sound WM8978                  TESTED OK, .....ino
+ - Play sound WM8978                                               TESTED OK, .....ino
    - over headphone jack,  control volume (main, L/R channels?)
    - over board speakers,  control volume (main, L/R channels?)
    - equalizer
@@ -16,9 +16,9 @@ Here I describe tests of the board's features.
    - read / write 
  - Play synthesized sound
    - use Faust for synthesis? 
- - LED array
-   - original light show erased 
- - Accelerometer, magnetometer    MPU9250                    DONE ???Gyroscope, orientation sensors, .....
+ - LED array           Adafruit_NeoPixel                          TESTED OK, but original light show erased
+   - 
+ - Accelerometer, magnetometer    MPU9250                         TESTED  ???Gyroscope, orientation sensors, .....
  - Battery
    - charging function? 
  - On/off switch
