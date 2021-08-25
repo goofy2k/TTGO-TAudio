@@ -18,7 +18,7 @@ Here I describe tests of the board's features.
    - use Faust for synthesis? 
  - LED array
    - original light show erased 
- - Accelromater, magnetometer    MPU9250                    DONE ???Gyroscope, orientation sensors, .....
+ - Accelerometer, magnetometer    MPU9250                    DONE ???Gyroscope, orientation sensors, .....
  - Battery
    - charging function? 
  - On/off switch
