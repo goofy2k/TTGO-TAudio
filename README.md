@@ -11,13 +11,13 @@ Here I describe tests of the board's features.
    - over board speakers,  control volume (main, L/R channels?)
    - equalizer
  - Microphone           ,  control volume? 
- - Recording function
+ - Recording function        microphone?, line in?
  - SD card
    - read / write 
  - Play synthesized sound
    - use Faust for synthesis? 
  - LED array           WS2812 / Adafruit_NeoPixel                 TESTED OK, but original light show erased
-   - 
+
  - Accelerometer, magnetometer    MPU9250                         TESTED  ???Gyroscope, orientation sensors, .....
  - Battery
    - charging function? 
