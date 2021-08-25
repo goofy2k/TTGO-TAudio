@@ -16,7 +16,7 @@ Here I describe tests of the board's features.
    - read / write 
  - Play synthesized sound
    - use Faust for synthesis? 
- - LED array           Adafruit_NeoPixel                          TESTED OK, but original light show erased
+ - LED array           WS2812 / Adafruit_NeoPixel                 TESTED OK, but original light show erased
    - 
  - Accelerometer, magnetometer    MPU9250                         TESTED  ???Gyroscope, orientation sensors, .....
  - Battery
