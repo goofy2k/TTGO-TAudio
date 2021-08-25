@@ -11,7 +11,7 @@ Here I describe tests of the board's features.
    - over board speakers,  control volume (main, L/R channels?)
    - equalizer
  - Microphone           ,  control volume? 
- - Recording function        microphone?, line in?
+ - Recording function        microphone?, line in?, i2S in ?
  - SD card
    - read / write 
  - Play synthesized sound
