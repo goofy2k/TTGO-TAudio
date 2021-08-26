@@ -9,10 +9,10 @@ Here I describe tests of the board's features.
 
 ### Tested
 
- - Play sound WM8978 over headphone jack                           TESTED OK, .....ino
- - WiFi                                                            TESTED OK, .....ino
-  - Play synthesized sound                                         TESTED OK ...
-   - use Faust for synthesis? 
+ - Play sound WM8978 over headphone jack                           TTGO_TAudio_arifshanji.ino
+ - WiFi                                                            TTGO_TAudio_arifshanji.ino
+  - Play synthesized sound                                         
+   - use Faust for synthesis                                       espTuto.ino 
   - LED array           WS2812 / Adafruit_NeoPixel                 TESTED OK, but original light show erased
 
  - Motion processing unit MPU9250 with accelerometer, magnetometer, gyroscope   TESTED  TTGO_TAudio_MPU9250.ino Gyroscope, orientation sensors, ..... 
@@ -20,9 +20,9 @@ Here I describe tests of the board's features.
 ### To be tested
 
  - Play sound WM8978                                               
-   - over control volume (main, L/R channels?)  use .....ino
+   - over control volume (main, L/R channels?)  use TTGO_TAudio_arifshanji.ino
    - over board speakers,  control volume (main, L/R channels?), requires proper hardware
-   - equalizer use .....ino
+   - equalizer use TTGO_TAudio_arifshanji.ino
  - Microphone           ,  control volume? 
  - Recording function        microphone?, line in?, i2S in ?
  - SD card
