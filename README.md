@@ -15,7 +15,7 @@ Here I describe tests of the board's features.
    - use Faust for synthesis? 
   - LED array           WS2812 / Adafruit_NeoPixel                 TESTED OK, but original light show erased
 
- - Accelerometer, magnetometer    MPU9250                          TESTED  ???Gyroscope, orientation sensors, ..... 
+ - Motion processing unit MPU9250 with accelerometer, magnetometer, gyroscope   TESTED  TTGO_TAudio_MPU9250.ino Gyroscope, orientation sensors, ..... 
 
 ### To be tested
 
