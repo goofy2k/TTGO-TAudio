@@ -6,19 +6,29 @@ When powered, the device runs a lightshow on the LED array.
 Here I describe tests of the board's features.
 
 ## Features of the board
- - Play sound WM8978                                               TESTED OK, .....ino
-   - over headphone jack,  control volume (main, L/R channels?)
-   - over board speakers,  control volume (main, L/R channels?)
-   - equalizer
+
+### Tested
+
+ - Play sound WM8978 over headphone jack                           TESTED OK, .....ino
+ - WiFi                                                            TESTED OK, .....ino
+  - Play synthesized sound                                         TESTED OK ...
+   - use Faust for synthesis? 
+  - LED array           WS2812 / Adafruit_NeoPixel                 TESTED OK, but original light show erased
+
+ - Accelerometer, magnetometer    MPU9250                          TESTED  ???Gyroscope, orientation sensors, ..... 
+
+### To be tested
+
+ - Play sound WM8978                                               
+   - over control volume (main, L/R channels?)  use .....ino
+   - over board speakers,  control volume (main, L/R channels?), requires proper hardware
+   - equalizer use .....ino
  - Microphone           ,  control volume? 
  - Recording function        microphone?, line in?, i2S in ?
  - SD card
    - read / write 
- - Play synthesized sound
-   - use Faust for synthesis? 
- - LED array           WS2812 / Adafruit_NeoPixel                 TESTED OK, but original light show erased
 
- - Accelerometer, magnetometer    MPU9250                         TESTED  ???Gyroscope, orientation sensors, .....
+
  - Battery
    - charging function? 
  - On/off switch
