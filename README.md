@@ -49,8 +49,12 @@ REMARK: is it possible to stream / synthesize sound on a board without a WM8978 
  - Google: TTGO-TAudio use cases / examples / projects
 #### Motion processing unit MPU9250
  - https://github.com/kriswiner/MPU9250  repo with lots of documentation and examples
+ - https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/
+ 
 #### LEDS
 #### SD card reader
+https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.
+ 
 
 
 ## Learning experiences during trials to upload some demos
