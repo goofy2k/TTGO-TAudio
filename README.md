@@ -55,7 +55,9 @@ REMARK: is it possible to stream / synthesize sound on a board without a WM8978 
 #### SD card reader
 https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.
  
-
+#### General
+https://www.reddit.com/r/esp32/comments/93xwx8/ttgo_taudio/ and 
+https://github.com/whyengineer/esp32_snow
 
 ## Learning experiences during trials to upload some demos
 
