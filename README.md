@@ -74,6 +74,7 @@ https://github.com/whyengineer/esp32_snow
 The WM8978 is a low power stereo codec with integrated pre-amps for stereo differential mics and includes drivers for speakers, headphone and differential or stereo line output. External component requirements are reduced as no separate microphone or headphone amplifiers are required. Advanced on-chip digital signal processing includes a five-band equalizer, a mixed-signal automatic level control for the microphone or line input through the A/D converter, as well as a purely digital limiter function for record or playback. Additional digital filtering options are available in the ADC path to provide application filtering such as ‘wind noise reduction.’ The WM8978 codec can operate as a main or secondary device. An internal PLL can generate all required audio clocks for the codec from common reference clock frequencies, such as 12 and 13 MHz. Individual sections of the chip can also be powered down under software control.
 
 ## Creating firmware with ESP-IDF (idf.py route)
-https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/
-https://blog.espressif.com/esp-idf-development-tools-guide-part-i-89af441585b
-also see the hello_world readme.md and links therein
+- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/
+- https://blog.espressif.com/esp-idf-development-tools-guide-part-i-89af441585b
+also see the hello_world readme.md and links therein, such as 
+- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html how to start a new project (and folder structure)
