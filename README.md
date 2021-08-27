@@ -48,6 +48,7 @@ REMARK: is it possible to stream / synthesize sound on a board without a WM8978 
  - WM8978 docs (e.g. equalizer function)
  - Google: TTGO-TAudio use cases / examples / projects
 #### Motion processing unit MPU9250
+ - https://github.com/kriswiner/MPU9250  repo with lots of documentation and examples
 #### LEDS
 #### SD card reader
 
