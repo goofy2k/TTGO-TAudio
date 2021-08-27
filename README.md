@@ -38,6 +38,7 @@ check presence in repo of all code files
 REMARK: is it possible to stream / synthesize sound on a board without a WM8978 and send it over BT to a wireless speaker?  
 
 ## Sources of examples
+### Audio WM8978
  - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h)
  - In LilyGO/ TTGO-TAudio repo
  - In issues of LilyGO/ TTGO-TAudio repo
@@ -46,6 +47,10 @@ REMARK: is it possible to stream / synthesize sound on a board without a WM8978 
  - Cellie @CelliesProjects https://github.com/CelliesProjects
  - WM8978 docs (e.g. equalizer function)
  - Google: TTGO-TAudio use cases / examples / projects
+### Motion processing unit MPU9250
+### LEDS
+### SD card reader
+
 
 ## Learning experiences during trials to upload some demos
 
