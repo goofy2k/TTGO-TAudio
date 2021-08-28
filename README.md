@@ -38,6 +38,11 @@ check presence in repo of all code files
 REMARK: is it possible to stream / synthesize sound on a board without a WM8978 and send it over BT to a wireless speaker?  
 
 ## Sources of examples
+
+Learn about code conversion. How to use C++ snippets or non-CMake C snippets in ESP-IDF:
+-  https://www.deeptronic.com/software-design/developing-esp32-application-with-esp-idf-and-c-in-windows
+-  https://github.com/goofy2k/ESPIDF-Code-Conversion (in progress)
+
 #### Audio WM8978
  - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h)
  - In LilyGO/ TTGO-TAudio repo
