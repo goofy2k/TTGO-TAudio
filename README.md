@@ -83,4 +83,6 @@ The WM8978 is a low power stereo codec with integrated pre-amps for stereo diffe
 - https://blog.espressif.com/esp-idf-development-tools-guide-part-i-89af441585b
 also see the hello_world readme.md and links therein, such as 
 - https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html how to start a new project (and folder structure)
-- Code conversion. How to use C++ snippets or non-CMake C snippets in ESP-IDF: 
+- Code conversion. How to use C++ code or non-CMake C code in the ESP-IDF environment:
+  - https://www.deeptronic.com/software-design/developing-esp32-application-with-esp-idf-and-c-in-windows
+  - https://github.com/goofy2k/ESPIDF-Code-Conversion (in progress)
