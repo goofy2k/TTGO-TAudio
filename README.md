@@ -111,3 +111,7 @@ Software on other boards may use different GPIOS, but the registers of the funct
 |**software**     |**board** |**Library**       |**Comments**  |**Reference** 
 |Arduino          | TTGO Taudio |Adafruit_NeoPixel|              | Lilygo repo
 
+### SD card reader/writer
+
+### BT /BLE
+
