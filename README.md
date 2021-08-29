@@ -115,6 +115,8 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 
 Often, examples depend on more than one hardware component. To prevent double entries in the tables, the examples are numbered such that cross references can be made. Also cross-references are not made double. They are only given for more supportive modalities, such as WiFi, BT, SD card reader.
 
+:+1: in Q means: working example available
+
 ### A. WM8978 audio codec
 | # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
 |---|----------|-------|---------|------------------|----|-----|----------|
