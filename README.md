@@ -152,8 +152,8 @@ Often, examples depend on more than one hardware component. To prevent double en
 ### C. ... LED string driver
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 | --- |   | --- |  |
-| 2 | --- |  | Adafruit NeoPixel.x | --- |
+| 1 | Arduino |this   | Adafruit NeoPixel.h | is less buitiful than the original firmware  | :+1: |  [github.com/LilyGO](https://github.com/LilyGO/TTGO-TAudio/tree/master/RGB_LED)  |  
+| 2 | --- |  |   | --- |
 
 ### D. SD card reader/writer
 cross-references: A8  
