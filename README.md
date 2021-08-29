@@ -128,7 +128,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 
 ### .... LED string driver
 |  #  | Platform | Board | Library | Remarks | Reference |
-| --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- |
 | Cx  | --- | Adafruit NeoPixel.x | --- | --- |
 
 ### SD card reader/writer
