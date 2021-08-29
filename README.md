@@ -118,9 +118,10 @@ Often, examples depend on more than one hardware component. To prevent double en
 ### A. WM8978 audio codec
 | # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
 |---|----------|-------|---------|------------------|----|-----|----------|
-| 1 |          |this   |         |plays mp3 from web|E   |:+1: |          |
-| 2 |          |this   |         |plays mp3 from SD |D   |:black_medium_square: | [github.com/climufat](https://github.com/climufat/TTGO_mp3_player)     |
-| x |          |       |         |                  |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
+| 1 |          |this   |         |plays mp3 from web     |E   |:+1: |          |
+| 2 |          |this   |         |plays mp3 from SD      |D   |:black_medium_square: | [github.com/climufat](https://github.com/climufat/TTGO_mp3_player)     |
+| 3 |          |       |         |play synthesized audio |D   |:+1:  | Faust for ESP32 |
+| x |          |       |         |                       |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
