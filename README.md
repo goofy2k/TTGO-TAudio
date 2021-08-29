@@ -118,13 +118,13 @@ Often, examples depend on more than one hardware component. To prevent double en
 ### WM8978 audio codec
 | # | Platform | Board | Library | Remarks | Reference |
 |---|---|---|---|---|---|
-| Ax| --- | --- | --- | https://github.com/donny681/eps32_voice_record-WM8978- |
+| Ax| --- | --- | --- | [Github](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### MPU9250 motion processing unit (incl. DMP)
 |  #  | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- | --- |
 | --- | Arduino | this | --- | --- | --- |
-| Bx  | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
+| Bx  | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |[Github](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 ### .... LED string driver
 |  #  | Platform | Board | Library | Remarks | Reference |
