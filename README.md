@@ -116,10 +116,10 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 Often, examples depend on more than one hardware component. To prevent double entries in the tables, the examples are numbered such that cross references can be made. Also cross-references are not made double. They are only given for more supportive modalities, such as WiFi, BT, SD card reader.
 
 ### A. WM8978 audio codec
-| # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
-|---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 |          |this   |         |plays mp3 from web|E       |:+1: |
-| x |          |       |         |                  |        |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
+| # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
+|---|----------|-------|---------|------------------|----|-----|----------|
+| 1 |          |this   |         |plays mp3 from web|E   |:+1: |
+| x |          |       |         |                  |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
@@ -134,13 +134,13 @@ Often, examples depend on more than one hardware component. To prevent double en
 | x | --- | Adafruit NeoPixel.x | --- | --- |
 
 ### D. SD card reader/writer
-cross-references:
+cross-references: Ax  
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
 
-### E. SD WiFi
-cross-references: A1
+### E. WiFi
+cross-references: A1,Ax
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
