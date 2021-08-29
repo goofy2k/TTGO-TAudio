@@ -121,7 +121,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 1 |          |this   |         |plays mp3 from web     |E   |:+1: |          |
 | 2 |          |this   |         |plays mp3 from SD      |D   |:black_medium_square: | [github.com/climufat](https://github.com/climufat/TTGO_mp3_player)     |
 | 3 |          |       |         |play synthesized audio |D   |:+1:  | [Faust for ESP32](https://faustdoc.grame.fr/tutorials/esp32/) |
-| 1 |          |this   |         |lots of audio tools    |    |     |  [github.com/pschatzmann](https://github.com/pschatzmann)        |
+| 1 |          |       |         |lots of audio tools    |    |     |  [github.com/pschatzmann](https://github.com/pschatzmann)        |
 | 1 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
 | 1 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
 
