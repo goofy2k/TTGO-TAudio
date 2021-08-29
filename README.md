@@ -107,6 +107,7 @@ Software on other boards may use different GPIOS, but the registers of the funct
 
 ### MPU9250 (motion processing unit, including DMP)
 Arduino        TTGO TAudio          ....ino  ....cpp    ref
+????           ????                 ????  3D show WhyEngineer, see link in this README
 
 ### LED Driver
 |**software**     |**board** |**Library**       |**Comments**  |**Reference** 
