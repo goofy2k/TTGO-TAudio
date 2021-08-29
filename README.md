@@ -144,6 +144,7 @@ cross-references:
 |  -  |  -  | --- | --- | R1 | --- |
 
 
-EMOJIS  :+1:  
+EMOJIS  from https://www.webfx.com/tools/emoji-cheat-sheet/
+:+1:  
 
 
