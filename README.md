@@ -127,7 +127,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 |---|----------|-------|---------|------------------|--------|-----|----------|
 | 1 | Arduino | this | --- | mag, accel,I added gyro|  |:+1:|...          |
 | 2 |         |                           |    | lots of documentation and examples |  |  | [github.com/kriswiner](https://github.com/kriswiner/MPU9250) |
-| 3 |         |                           |    | nice article| |  | [seeedstudio.com](https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/ |
+| 3 |         |                           |    | nice article| |  | [seeedstudio.com](https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/) |
 | x | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |  |  |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 
