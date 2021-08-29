@@ -136,7 +136,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 | x | --- |   | --- | --- |
-| y | --- | Adafruit NeoPixel.x | --- | --- |
+| y | --- |  | Adafruit NeoPixel.x | --- |
 
 ### D. SD card reader/writer
 cross-references: Ax  
