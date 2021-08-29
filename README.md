@@ -95,11 +95,12 @@ The TAudio board has a ESP32 WROVER controller and specific wiring, so the task 
 Software on other boards may use different GPIOS, but the registers of the functional chips remain the same. This can be translated.
 
 ## WM8978 (audio codec)
-
-|**software**     |**board**        |**Comments**  |**Reference** | 
+"""
+|**software**     |**board** |**Library**       |**Comments**  |**Reference** 
 |
 |Arduino
 |
 |C
 |
 |C++
+"""
