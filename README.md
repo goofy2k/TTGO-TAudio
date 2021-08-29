@@ -156,7 +156,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 2 | --- |  |   | --- |
 
 ### D. SD card reader/writer
-cross-references: A8  
+cross-references: 
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
