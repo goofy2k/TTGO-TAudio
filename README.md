@@ -132,9 +132,6 @@ Often, examples depend on more than one hardware component. To prevent double en
 | x | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |  |  |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 
- https://github.com/kriswiner/MPU9250  repo with lots of documentation and examples
- https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/
-
 ### C. ... LED string driver
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
