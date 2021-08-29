@@ -113,26 +113,32 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 
 ## Overview per hardware componnet and platform
 
-Often, examples depend on more than one hardware components. To prevent double entries in the tables, the examples are numbered such that cross references can be made.
+Often, examples depend on more than one hardware component. To prevent double entries in the tables, the examples are numbered such that cross references can be made. Also cross-references are not made double. They are only given for more supportive modalities, such as WiFi, BT, SD card reader.
 
 ### WM8978 audio codec
 |  #  | Platform | Board | Library | Remarks | Reference |
-| --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | https://github.com/donny681/eps32_voice_record-WM8978- |
+| --- |---| --- | --- | --- | --- |
+| Ax  | --- | --- | --- | https://github.com/donny681/eps32_voice_record-WM8978- |
 
 ### MPU9250 motion processing unit (incl. DMP)
 |  #  | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- | --- |
 | --- | Arduino | this | --- | --- | --- |
-| --- | Arduino |SparkFun 9DoF IMU Breakout | --- | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
-
+| Bx  | Arduino |SparkFun 9DoF IMU Breakout | --- | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
 
 ### .... LED string driver
 |  #  | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- |
-| --- | --- | Adafruit NeoPixel.x | --- | --- |
+| Cx  | --- | Adafruit NeoPixel.x | --- | --- |
 
 ### SD card reader/writer
+cross-references:
 |  #  | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | R1 | --- |
+|  -  |  -  | --- | --- | R1 | --- |
+
+### SD WiFi
+cross-references:
+|  #  | Platform | Board | Library | Remarks | Reference |
+| --- | --- | --- | --- | --- | --- |
+|  -  |  -  | --- | --- | R1 | --- |
