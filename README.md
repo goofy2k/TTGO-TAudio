@@ -1,10 +1,10 @@
 # TTGO-TAudio (draft in progress)
 
-Got shipped a TTGO TAudio 9 V1.6
+Got shipped a TTGO TAudio 9 V1.6, manufactured by Lilygo.
 When powered, the device runs a lightshow on the LED array.
 
 
-In the supplier's repo (link) the documentation on software is quite "thin". Yet, there is information on the hardware layout, connections, PINS, schematic etc.
+In the [Lilygo Github repo](https://github.com/LilyGO/TTGO-TAudio) the documentation on software is quite "thin". Yet, there is information on the hardware layout, connections, PINS, schematic etc.
 In the issues section of the supplier's repo some leads can be found.
 
 **This repo** is meant to kind of repair this lack of **documentation** on this board and it't applications. Any suggestions and/or contributions are welcome!
