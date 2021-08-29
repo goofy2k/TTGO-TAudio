@@ -124,7 +124,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 | Arduino | this | --- | --- | mag, accel,I added gyro |:+1:|...          |
+| 1 | Arduino | this | --- | mag, accel,I added gyro|  |:+1:|...          |
 | x | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 ### C. ... LED string driver
