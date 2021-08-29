@@ -118,7 +118,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 ### A. WM8978 audio codec
 | # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
 |---|----------|-------|---------|------------------|----|-----|----------|
-| 1 |          |this   |         |plays mp3 from web     |E   |:+1: |          |
+| 1 |  Arduino        |this   | see: TTGO_TAudio_arifshanji.ino        |plays mp3 from web     |E   |:+1: | sketch derived from arifshanji in follow-up on issue on Lilygo repo          |
 | 2 |          |this   |         |plays mp3 from SD      |D   |:black_medium_square: | [github.com/climufat](https://github.com/climufat/TTGO_mp3_player)     |
 | 3 |          |       |         |play synthesized audio |D   |:+1:  | [Faust for ESP32](https://faustdoc.grame.fr/tutorials/esp32/) |
 | 4 |          |       |         |lots of audio tools    |    |     |  [github.com/pschatzmann](https://github.com/pschatzmann)        |
