@@ -159,7 +159,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 cross-references: 
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 | C++ |this   | card.h ?? |seems to be working according to discussion in Lilygo issues |   |   | [github.com/MisterRager](https://github.com/MisterRager/RingThing)|
+| 1 | C++ |this   | card.h ?? |reported to be working according to discussion in Lilygo issues, to be checked |   |   | [github.com/MisterRager](https://github.com/MisterRager/RingThing)|
 
 
 
