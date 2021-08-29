@@ -9,6 +9,7 @@ When powered, the device runs a lightshow on the LED array.
 ## Features of the board
 
 ### Tested
+ - Serial port & Hello World  COM10
  - Play sound WM8978 over headphone jack                                        TTGO_TAudio_arifshanji.ino (play mp3 stream from web)
  - WiFi                                                                         TTGO_TAudio_arifshanji.ino
   - Play synthesized sound                                                      espTuto.ino from Faust project (ESP32 part)  ,  C++ code also available                               
