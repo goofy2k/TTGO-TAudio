@@ -118,7 +118,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 ### WM8978 audio codec
 | # | Platform | Board | Library | Remarks | Reference |
 |---|----------|-------|---------|---------|-----------|
-|A1 |----------|-------|---------|plays mp3 from web|-----------|
+|A1 |----------|this   |---------|plays mp3 from web|-----------|
 |Ax | --- | --- | --- | --- | [Github](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### MPU9250 motion processing unit (incl. DMP)
