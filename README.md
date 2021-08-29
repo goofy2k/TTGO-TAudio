@@ -3,6 +3,7 @@
 Got shipped a TTGO TAudio 9 V1.6
 When powered, the device runs a lightshow on the LED array.
 
+
 In the supplier's repo (link) the documentation on software is pretty poor. Yet, there is information on the hardware layout, connections, PINS, schematic etc.
 In the issues section of the supplier's repo some leads can be found.
 
@@ -21,11 +22,10 @@ In the end, an set of libraries should be available for the on board hardware (f
 - speakers outputs
 
 
-Here I describe tests of the board's features.
-
 ## Features of the board
 
 ### Tested
+ - Serial port & Hello World  COM10
  - Play sound WM8978 over headphone jack                                        TTGO_TAudio_arifshanji.ino (play mp3 stream from web)
  - WiFi                                                                         TTGO_TAudio_arifshanji.ino
   - Play synthesized sound                                                      espTuto.ino from Faust project (ESP32 part)  ,  C++ code also available                               
@@ -106,4 +106,9 @@ also see the hello_world readme.md and links therein, such as
 - Code conversion. How to use C++ code or non-CMake C code in the ESP-IDF environment:
   - https://www.deeptronic.com/software-design/developing-esp32-application-with-esp-idf-and-c-in-windows
   - https://github.com/goofy2k/ESPIDF-Code-Conversion (in progress)
+
+
+Need to make an overview of relevant examples and libraries.
+Need to translate example on other hardware to the TTGO TAudio T9 V1.6
+Preparing a table with on board hardware (chips) and available code per platform
 
