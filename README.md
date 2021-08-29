@@ -149,7 +149,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 4 | Arduino |SparkFun 9DoF IMU Breakout|    | specific info on DMP |  |  |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 
-### C. ... LED string driver
+### C. WS2812 12bits LED string driver
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 | 1 | Arduino |this   | Adafruit NeoPixel.h | is less buitiful than the original firmware  |    | :+1: |  [github.com/LilyGO](https://github.com/LilyGO/TTGO-TAudio/tree/master/RGB_LED)  |  
