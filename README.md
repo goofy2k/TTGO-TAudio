@@ -157,7 +157,7 @@ cross-references: A1,A2,A8
 
 
 
--------------------------------------------------------------
+------------------------------------------------------------
 FIND EMOJIS on https://www.webfx.com/tools/emoji-cheat-sheet/
 :+1:  :red_circle: :black_circle: :white_check_mark:
 
