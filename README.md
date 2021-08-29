@@ -125,21 +125,21 @@ Often, examples depend on more than one hardware component. To prevent double en
 |---|----------|-------|---------|------------------|----|-----|----------|
 | 1 |  Arduino        |this   | see: TTGO_TAudio_arifshanji.ino        |plays mp3 from web     |E   |:+1: | sketch derived from arifshanji in follow-up on issue on Lilygo repo          |
 | 2 |          |this   |         |plays mp3 from SD      |D   |:black_medium_square: | [github.com/climufat](https://github.com/climufat/TTGO_mp3_player)     |
-| 3 |          |this   |WM8978.h, FaustSawtooth.h Faust_esp32Tuto in this repo|play synthesized audio |D   |:+1:  | [Faust for ESP32](https://faustdoc.grame.fr/tutorials/esp32/) |
+| 3 | Arduino  |this   |WM8978.h, FaustSawtooth.h Faust_esp32Tuto in this repo|play synthesized audio |D   |:+1:  | [Faust for ESP32](https://faustdoc.grame.fr/tutorials/esp32/) |
 | 4 |          |       |         |lots of audio tools    |    |     |  [github.com/pschatzmann](https://github.com/pschatzmann)        |
 | 5 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
 | 6 |          |       |Audio.h  |I2S work               |    |     | [github.com/schreibfaul1](https://github.com/schreibfaul1/ESP32-audioI2S)       |
 | 7 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
 | 8 |          |       |         |microphone in          |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
-https://github.com/schreibfaul1/ESP32-audioI2S
+
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 | Arduino | this | --- | mag, accel,I added gyro|  |:+1:|...          |
-| 2 |         |                          |    | lots of documentation and examples |  |  | [github.com/kriswiner](https://github.com/kriswiner/MPU9250) |
-| 3 |         |                          |    | nice article| |  | [seeedstudio.com](https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/) |
+| 1 | Arduino | this | MPU9250_asukiaaa.h | mag, accel,I added gyro|  |:+1:|[github.com/asukiaaa/MPU9250](https://github.com/asukiaaa/MPU9250_asukiaaa)   |
+| 2 |         |                           |                        | lots of documentation and examples |  |  | [github.com/kriswiner](https://github.com/kriswiner/MPU9250) |
+| 3 |         |                           |    | nice article| |  | [seeedstudio.com](https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/) |
 | 4 | Arduino |SparkFun 9DoF IMU Breakout|    | specific info on DMP |  |  |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 
