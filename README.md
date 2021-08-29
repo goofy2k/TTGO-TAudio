@@ -89,32 +89,7 @@ also see the hello_world readme.md and links therein, such as
   - https://www.deeptronic.com/software-design/developing-esp32-application-with-esp-idf-and-c-in-windows
   - https://github.com/goofy2k/ESPIDF-Code-Conversion (in progress)
 
-## Table with on board hardware (chips) and available code per platform
-
-The TAudio board has a ESP32 WROVER controller and specific wiring, so the task is to find settings for this combination
-Software on other boards may use different GPIOS, but the registers of the functional chips remain the same. This can be translated.
-
-### WM8978 (audio codec)
-"""
-|**software**     |**board** |**Library**       |**Comments**  |**Reference** 
-|
-|Arduino
-|
-|C
-|
-|C++
-"""
-
-### MPU9250 (motion processing unit, including DMP)
-Arduino        TTGO TAudio          ....ino  ....cpp    ref
-
-### LED Driver
-|**software**     |**board** |**Library**       |**Comments**  |**Reference** 
-|Arduino          | TTGO Taudio |Adafruit_NeoPixel|              | Lilygo repo
-
-### SD card reader/writer
-
-TTGO TAudio Climufat on Github (mp3 player)  Does not compile Github repo
-
-### BT /BLE
+Need to make an overview of relevant examples and libraries.
+Need to translate example on other hardware to the TTGO TAudio T9 V1.6
+Preparing a table with on board hardware (chips) and available code per platform
 
