@@ -3,7 +3,8 @@
 Got shipped a TTGO TAudio 9 V1.6
 When powered, the device runs a lightshow on the LED array.
 
-Documentation in the supplier's repo is pretty poor.
+In the supplier's repo (link) the documentation on software is pretty poor. Yet, there is information on the hardware layout, connections, PINS, schematic etc.
+In the issues section of the supplier's repo some leads can be found.
 
 Here I describe ongiong tests of the board's features and discovery of relevant code examples and libraries.
 In the end, an set of libraries should be available for the on board hardware (functional chips):
