@@ -123,25 +123,25 @@ Often, examples depend on more than one hardware component. To prevent double en
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board | Library | Remarks | Xref | Reference | Q |
-|---|----------|-------|---------|---------|-----------|
+|---|----------|-------|---------|---------|-----------|---|---|
 |---| Arduino | this | --- | --- | --- | :white_check_mark:
 | x | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |[Github](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 ### C. ... LED string driver
 | # | Platform | Board | Library | Remarks | Xref | Reference | Q |
-|---|----------|-------|---------|---------|-----------|
+|---|----------|-------|---------|---------|-----------|---|---|
 | x | --- | Adafruit NeoPixel.x | --- | --- |
 
 ### D. SD card reader/writer
 cross-references:
 | # | Platform | Board | Library | Remarks | Xref | Reference | Q |
-|---|----------|-------|---------|---------|-----------|
+|---|----------|-------|---------|---------|-----------|---|---|
 
 
 ### E. SD WiFi
 cross-references: A1
 | # | Platform | Board | Library | Remarks | Xref | Reference | Q |
-|---| --- | --- | --- | --- | --- |
+|---|----------|-------|---------|---------|-----------|---|---|
 
 
 
