@@ -91,6 +91,7 @@ https://github.com/whyengineer/esp32_snow
 
 ### New links (not yet evaluated)
 https://github.com/hpsaturn/ttgotaudio
+https://blog.georgmill.de/2018/06/06/esp32-audio-experiments-or-make-a-very-small-low-cost-and-portable-webradio/
 
 ## Learning experiences during trials to upload some demos
 
