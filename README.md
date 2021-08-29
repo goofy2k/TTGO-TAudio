@@ -119,6 +119,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
 |---|----------|-------|---------|------------------|----|-----|----------|
 | 1 |          |this   |         |plays mp3 from web|E   |:+1: |
+| 2 |          |this   |         |plays mp3 from SD |D   |:+1: |
 | x |          |       |         |                  |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### B. MPU9250 motion processing unit (incl. DMP)
@@ -131,7 +132,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 | x | --- |   | --- | --- |
-| x | --- | Adafruit NeoPixel.x | --- | --- |
+| y | --- | Adafruit NeoPixel.x | --- | --- |
 
 ### D. SD card reader/writer
 cross-references: Ax  
@@ -140,7 +141,7 @@ cross-references: Ax
 
 
 ### E. WiFi
-cross-references: A1,Ax
+cross-references: A1,A2,Ax
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
