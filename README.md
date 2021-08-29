@@ -124,7 +124,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 |  #  | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- | --- |
 | --- | Arduino | this | --- | --- | --- |
-| Bx  | Arduino |SparkFun 9DoF IMU Breakout | :+1: | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
+| Bx  | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
 
 ### .... LED string driver
 |  #  | Platform | Board | Library | Remarks | Reference |
@@ -142,3 +142,8 @@ cross-references:
 |  #  | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- | --- |
 |  -  |  -  | --- | --- | R1 | --- |
+
+
+EMOJIS  :+1:  
+
+
