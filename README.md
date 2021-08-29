@@ -7,6 +7,9 @@ When powered, the device runs a lightshow on the LED array.
 In the supplier's repo (link) the documentation on software is pretty poor. Yet, there is information on the hardware layout, connections, PINS, schematic etc.
 In the issues section of the supplier's repo some leads can be found.
 
+This repo is meant to kind of repair this lack of documentation on this board and it't applications. It is NOT meant to develop applications or software. This will be done in other projects. 
+
+-------------------------------------------------------------------------------------------------------------
 Here I describe ongiong tests of the board's features and discovery of relevant code examples and libraries.
 In the end, an set of libraries should be available for the on board hardware (functional chips):
 
