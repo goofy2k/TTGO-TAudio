@@ -156,8 +156,10 @@ cross-references: A1,A2,A8
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
 
+F. Verhoeckx, 2021
 
-EMOJIS  from https://www.webfx.com/tools/emoji-cheat-sheet/
+-------------------------------------------------------------
+FIND EMOJIS on https://www.webfx.com/tools/emoji-cheat-sheet/
 :+1:  :red_circle: :black_circle: :white_check_mark:
 
 
