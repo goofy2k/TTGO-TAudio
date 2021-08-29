@@ -1,13 +1,15 @@
 # TTGO-TAudio (draft in progress)
 
-Got shipped a TTGO TAudio 9 V1.6
+Got shipped a TTGO TAudio 9 V1.6, manufactured by Lilygo.
 When powered, the device runs a lightshow on the LED array.
 
 
-In the supplier's repo (link) the documentation on software is pretty poor. Yet, there is information on the hardware layout, connections, PINS, schematic etc.
+In the [Lilygo Github repo](https://github.com/LilyGO/TTGO-TAudio) the documentation on software is quite "thin". Yet, there is information on the hardware layout, connections, PINS, schematic etc.
 In the issues section of the supplier's repo some leads can be found.
 
-This repo is meant to kind of repair this lack of documentation on this board and it't applications. It is NOT meant to develop applications or software. This will be done in other projects. 
+**This repo** is meant to kind of repair this lack of **documentation** on this board and it't applications. Any suggestions and/or contributions are welcome!
+
+This repo is NOT meant to develop applications or software. This will be done in other projects. 
 
 -------------------------------------------------------------------------------------------------------------
 Here I describe ongiong tests of the board's features and discovery of relevant code examples and libraries.
@@ -87,6 +89,10 @@ https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only
 https://www.reddit.com/r/esp32/comments/93xwx8/ttgo_taudio/ and 
 https://github.com/whyengineer/esp32_snow
 
+### New links (not yet evaluated)
+https://github.com/hpsaturn/ttgotaudio
+https://blog.georgmill.de/2018/06/06/esp32-audio-experiments-or-make-a-very-small-low-cost-and-portable-webradio/
+
 ## Learning experiences during trials to upload some demos
 
 - The docs on the Github page suggests a demo on playing mp3 sound from an SD card. Burning this firmware and running did not succeed. 
@@ -130,7 +136,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 5 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
 | 6 |          |       |Audio.h  |I2S work               |    |     | [github.com/schreibfaul1](https://github.com/schreibfaul1/ESP32-audioI2S)       |
 | 7 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
-| 8 |          |       |         |microphone in          |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
+| 8 |   C      |unknown|WM8978.h |microphone in, data strored in SPIFFS|E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 
 
@@ -143,14 +149,14 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 4 | Arduino |SparkFun 9DoF IMU Breakout|    | specific info on DMP |  |  |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 
-### C. ... LED string driver
+### C. WS2812 12bits LED string driver
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 | --- |   | --- |  |
-| 2 | --- |  | Adafruit NeoPixel.x | --- |
+| 1 | Arduino |this   | Adafruit NeoPixel.h | is less buitiful than the original firmware  |    | :+1: |  [github.com/LilyGO](https://github.com/LilyGO/TTGO-TAudio/tree/master/RGB_LED)  |  
+| 2 | --- |  |   | --- |
 
 ### D. SD card reader/writer
-cross-references: A8  
+cross-references: 
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
