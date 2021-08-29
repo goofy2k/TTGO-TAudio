@@ -110,7 +110,17 @@ also see the hello_world readme.md and links therein, such as
 
 Need to make an overview of relevant examples and libraries.
 Need to translate example on other hardware to the TTGO TAudio T9 V1.6
-Preparing a table with on board hardware (chips) and available code per platform
 
-proposed change
+## Overview per hardware componnet and platform
 
+### WM8978 audio codec
+| Platform | Board | Library | Remarks | Reference |
+| --- | --- | --- | --- | --- |
+
+### WM8978 audio codec
+| Platform | Board | Library | Remarks | Reference |
+| --- | --- | --- | --- | --- |
+
+### WM8978 audio codec
+| Platform | Board | Library | Remarks | Reference |
+| --- | --- | --- | --- | --- |
