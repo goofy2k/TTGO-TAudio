@@ -117,7 +117,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 
 ### A. WM8978 audio codec
 | # | Platform | Board | Library | Remarks | Xref | Reference | Q |
-|---|----------|-------|---------|---------|-----------|---|
+|---|----------|-------|---------|---------|-----------|---|---|
 | 1 |----------|this   |---------|plays mp3 from web|----:+1:-------| :white_check_mark: |
 | x | --- | --- | --- | --- | [Github](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
