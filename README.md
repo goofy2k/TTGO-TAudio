@@ -120,8 +120,10 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 
 ### MPU9250 motion processing unit (incl. DMP)
 | Platform | Board | Library | Remarks | Reference |
-| --- |SparkFun 9DoF IMU Breakout | --- | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
+| --- | --- | --- | --- | --- |
 | Arduino | this | --- | --- | --- |
+| Arduino |SparkFun 9DoF IMU Breakout | --- | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
+
 
 ### .... LED string driver
 | Platform | Board | Library | Remarks | Reference |
