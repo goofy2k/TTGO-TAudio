@@ -1,4 +1,4 @@
-# TTGO-TAudio
+# TTGO-TAudio (DRAFT)
 
 Got shipped a TTGO TAudio 9 V1.6
 When powered, the device runs a lightshow on the LED array.
