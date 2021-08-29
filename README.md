@@ -7,6 +7,9 @@ When powered, the device runs a lightshow on the LED array.
 In the supplier's repo (link) the documentation on software is pretty poor. Yet, there is information on the hardware layout, connections, PINS, schematic etc.
 In the issues section of the supplier's repo some leads can be found.
 
+This repo is meant to kind of repair this lack of documentation on this board and it't applications. It is NOT meant to develop applications or software. This will be done in other projects. 
+
+-------------------------------------------------------------------------------------------------------------
 Here I describe ongiong tests of the board's features and discovery of relevant code examples and libraries.
 In the end, an set of libraries should be available for the on board hardware (functional chips):
 
@@ -115,12 +118,14 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 
 Often, examples depend on more than one hardware component. To prevent double entries in the tables, the examples are numbered such that cross references can be made. Also cross-references are not made double. They are only given for more supportive modalities, such as WiFi, BT, SD card reader.
 
+:+1: in Q means: working example available, these will be placed in the repo.
+
 ### A. WM8978 audio codec
 | # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
 |---|----------|-------|---------|------------------|----|-----|----------|
-| 1 |          |this   |         |plays mp3 from web     |E   |:+1: |          |
+| 1 |  Arduino        |this   | see: TTGO_TAudio_arifshanji.ino        |plays mp3 from web     |E   |:+1: | sketch derived from arifshanji in follow-up on issue on Lilygo repo          |
 | 2 |          |this   |         |plays mp3 from SD      |D   |:black_medium_square: | [github.com/climufat](https://github.com/climufat/TTGO_mp3_player)     |
-| 3 |          |       |         |play synthesized audio |D   |:+1:  | [Faust for ESP32](https://faustdoc.grame.fr/tutorials/esp32/) |
+| 3 |          |this   |WM8978.h, FaustSawtooth.h Faust_esp32Tuto in this repo|play synthesized audio |D   |:+1:  | [Faust for ESP32](https://faustdoc.grame.fr/tutorials/esp32/) |
 | 4 |          |       |         |lots of audio tools    |    |     |  [github.com/pschatzmann](https://github.com/pschatzmann)        |
 | 5 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
 | 6 |          |       |Audio.h  |I2S work               |    |     | [github.com/schreibfaul1](https://github.com/schreibfaul1/ESP32-audioI2S)       |
