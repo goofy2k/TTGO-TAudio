@@ -119,13 +119,13 @@ Often, examples depend on more than one hardware component. To prevent double en
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 | 1 |          |this   |         |plays mp3 from web|E       |:+1: |
-| x |          |       |         |                  |        |     | [Github](https://github.com/donny681/eps32_voice_record-WM8978-) |
+| x |          |       |         |                  |        |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 |---| Arduino | this | --- | --- | --- |   |:white_check_mark: |
-| x | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |[Github](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
+| x | Arduino |SparkFun 9DoF IMU Breakout |    | specific info on DMP |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 ### C. ... LED string driver
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
