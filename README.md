@@ -116,13 +116,19 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 ### WM8978 audio codec
 | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | https://github.com/donny681/eps32_voice_record-WM8978- |
 
 ### MPU9250 motion processing unit (incl. DMP)
 | Platform | Board | Library | Remarks | Reference |
-| --- | --- | --- | --- | --- |
+| --- |SparkFun 9DoF IMU Breakout | --- | specific info on DMP |https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary |
 | Arduino | this | --- | --- | --- |
 
 ### .... LED string driver
 | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- |
 | --- | --- | Adafruit NeoPixel.x | --- | --- |
+
+### SD card reader/writer
+| Platform | Board | Library | Remarks | Reference |
+| --- | --- | --- | --- | --- |
+| --- | --- | --- | R1 | --- |
