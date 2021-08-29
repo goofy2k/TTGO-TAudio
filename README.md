@@ -1,10 +1,26 @@
-# TTGO-TAudio
+# TTGO-TAudio (DRAFT)
 
 Got shipped a TTGO TAudio 9 V1.6
 When powered, the device runs a lightshow on the LED array.
 
 
- 
+In the supplier's repo (link) the documentation on software is pretty poor. Yet, there is information on the hardware layout, connections, PINS, schematic etc.
+In the issues section of the supplier's repo some leads can be found.
+
+Here I describe ongiong tests of the board's features and discovery of relevant code examples and libraries.
+In the end, an set of libraries should be available for the on board hardware (functional chips):
+
+- WM8978 audio codec
+- MPU9250 motion processing unit including DMP
+- .....  LED string driver
+- SD card reader/writer
+- WiFI
+- BT/BLE
+- battery / charging
+- microphone
+- headset output
+- speakers outputs
+
 
 ## Features of the board
 
@@ -90,6 +106,7 @@ also see the hello_world readme.md and links therein, such as
 - Code conversion. How to use C++ code or non-CMake C code in the ESP-IDF environment:
   - https://www.deeptronic.com/software-design/developing-esp32-application-with-esp-idf-and-c-in-windows
   - https://github.com/goofy2k/ESPIDF-Code-Conversion (in progress)
+
 
 Need to make an overview of relevant examples and libraries.
 Need to translate example on other hardware to the TTGO TAudio T9 V1.6
