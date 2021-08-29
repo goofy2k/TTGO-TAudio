@@ -145,6 +145,6 @@ cross-references:
 
 
 EMOJIS  from https://www.webfx.com/tools/emoji-cheat-sheet/
-:+1:  
+:+1:  :red_circle: :black_circle: :white_check_mark:
 
 
