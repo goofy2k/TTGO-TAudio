@@ -117,10 +117,11 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- |
 
-### WM8978 audio codec
+### MPU9250 motion processing unit (incl. DMP)
 | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- |
 
-### WM8978 audio codec
+### .... LED string driver
 | Platform | Board | Library | Remarks | Reference |
 | --- | --- | --- | --- | --- |
+| --- | --- | Adafruit NeoPixel.x | --- | --- |
