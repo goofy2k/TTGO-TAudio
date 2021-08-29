@@ -104,3 +104,10 @@ Software on other boards may use different GPIOS, but the registers of the funct
 |
 |C++
 """
+
+### MPU9250 (motion processing unit, including DMP)
+
+### LED Driver
+|**software**     |**board** |**Library**       |**Comments**  |**Reference** 
+|Arduino          | TTGO Taudio |Adafruit_NeoPixel|              | Lilygo repo
+
