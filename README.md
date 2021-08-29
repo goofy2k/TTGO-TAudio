@@ -136,7 +136,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 5 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
 | 6 |          |       |Audio.h  |I2S work               |    |     | [github.com/schreibfaul1](https://github.com/schreibfaul1/ESP32-audioI2S)       |
 | 7 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
-| 8 |          |       |         |microphone in          |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
+| 8 |          |       |         |microphone in, data strored in SPIFFS|E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 
 
