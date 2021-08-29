@@ -121,11 +121,13 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 1 |          |this   |         |plays mp3 from web     |E   |:+1: |          |
 | 2 |          |this   |         |plays mp3 from SD      |D   |:black_medium_square: | [github.com/climufat](https://github.com/climufat/TTGO_mp3_player)     |
 | 3 |          |       |         |play synthesized audio |D   |:+1:  | [Faust for ESP32](https://faustdoc.grame.fr/tutorials/esp32/) |
-| 1 |          |       |         |lots of audio tools    |    |     |  [github.com/pschatzmann](https://github.com/pschatzmann)        |
-| 1 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
-| 1 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
+| 4 |          |       |         |lots of audio tools    |    |     |  [github.com/pschatzmann](https://github.com/pschatzmann)        |
+| 5 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
+| 6 |          |       |Audio.h  |I2S work               |    |     | [github.com/schreibfaul1](https://github.com/schreibfaul1/ESP32-audioI2S)       |
+| 7 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
+| 8 |          |       |         |                       |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
-| x |          |       |         |                       |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
+https://github.com/schreibfaul1/ESP32-audioI2S
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
@@ -143,13 +145,13 @@ Often, examples depend on more than one hardware component. To prevent double en
 | y | --- |  | Adafruit NeoPixel.x | --- |
 
 ### D. SD card reader/writer
-cross-references: Ax  
+cross-references: A8  
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
 
 ### E. WiFi
-cross-references: A1,A2,Ax
+cross-references: A1,A2,A8
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
