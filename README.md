@@ -107,6 +107,8 @@ also see the hello_world readme.md and links therein, such as
   - https://www.deeptronic.com/software-design/developing-esp32-application-with-esp-idf-and-c-in-windows
   - https://github.com/goofy2k/ESPIDF-Code-Conversion (in progress)
 
+Table here..
+
 ## Table with on board hardware (chips) and available code per platform
 
 The TAudio board has a ESP32 WROVER controller and specific wiring, so the task is to find settings for this combination
