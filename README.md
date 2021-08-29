@@ -112,3 +112,5 @@ Need to make an overview of relevant examples and libraries.
 Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 Preparing a table with on board hardware (chips) and available code per platform
 
+proposed change
+
