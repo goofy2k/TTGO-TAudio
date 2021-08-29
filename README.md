@@ -116,10 +116,10 @@ Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 Often, examples depend on more than one hardware component. To prevent double entries in the tables, the examples are numbered such that cross references can be made. Also cross-references are not made double. They are only given for more supportive modalities, such as WiFi, BT, SD card reader.
 
 ### A. WM8978 audio codec
-| # | Platform | Board | Library | Remarks | Xref | Reference | Q |
-|---|----------|-------|---------|---------|-----------|---|---|
-| 1 |----------|this   |---------|plays mp3 from web|-----------| :+1: |
-| x | --- | --- | --- | --- | [Github](https://github.com/donny681/eps32_voice_record-WM8978-) |
+| # | Platform | Board | Library | Remarks          | Xrefs  | Q   | Reference |
+|---|----------|-------|---------|------------------|--------|-----|-----------|
+| 1 |----------|this   |---------|plays mp3 from web|--------|:+1: |
+| x | ---      | ---   | ---     | ---              |--------|     | [Github](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board | Library | Remarks | Xref | Reference | Q |
