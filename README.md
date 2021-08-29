@@ -132,7 +132,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 7 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
 | 8 |          |       |         |microphone in          |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
-https://github.com/schreibfaul1/ESP32-audioI2S
+
 
 ### B. MPU9250 motion processing unit (incl. DMP)
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
