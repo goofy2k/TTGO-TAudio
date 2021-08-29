@@ -111,7 +111,7 @@ also see the hello_world readme.md and links therein, such as
 Need to make an overview of relevant examples and libraries.
 Need to translate example on other hardware to the TTGO TAudio T9 V1.6
 
-## Overview per hardware componnet and platform
+## Overview per hardware component and code platform
 
 Often, examples depend on more than one hardware component. To prevent double entries in the tables, the examples are numbered such that cross references can be made. Also cross-references are not made double. They are only given for more supportive modalities, such as WiFi, BT, SD card reader.
 
@@ -125,7 +125,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 5 |          |M5Stack|WM8978.h |                       |    |     |  [github.com/CelliesProjects](https://github.com/CelliesProjects)|
 | 6 |          |       |Audio.h  |I2S work               |    |     | [github.com/schreibfaul1](https://github.com/schreibfaul1/ESP32-audioI2S)       |
 | 7 |          |       |         |uses equalizer function|    |     |  WM8978 docs        |
-| 8 |          |       |         |                       |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
+| 8 |          |       |         |microphone in          |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 https://github.com/schreibfaul1/ESP32-audioI2S
 
@@ -135,14 +135,14 @@ https://github.com/schreibfaul1/ESP32-audioI2S
 | 1 | Arduino | this | --- | mag, accel,I added gyro|  |:+1:|...          |
 | 2 |         |                          |    | lots of documentation and examples |  |  | [github.com/kriswiner](https://github.com/kriswiner/MPU9250) |
 | 3 |         |                          |    | nice article| |  | [seeedstudio.com](https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/) |
-| x | Arduino |SparkFun 9DoF IMU Breakout|    | specific info on DMP |  |  |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
+| 4 | Arduino |SparkFun 9DoF IMU Breakout|    | specific info on DMP |  |  |[github.com/sparkfun](https://github.com/sparkfun/SparkFun_ICM-20948_ArduinoLibrary) |
 
 
 ### C. ... LED string driver
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| x | --- |   | --- | --- |
-| y | --- |  | Adafruit NeoPixel.x | --- |
+| 1 | --- |   | --- |  |
+| 2 | --- |  | Adafruit NeoPixel.x | --- |
 
 ### D. SD card reader/writer
 cross-references: A8  
