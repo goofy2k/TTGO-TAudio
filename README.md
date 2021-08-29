@@ -3,6 +3,23 @@
 Got shipped a TTGO TAudio 9 V1.6
 When powered, the device runs a lightshow on the LED array.
 
+Documentation in the supplier's repo is pretty poor.
+
+Here I describe ongiong tests of the board's features and discovery of relevant code examples and libraries.
+In the end, an set of libraries should be available for the on board hardware (functional chips):
+
+- WM8978 audio codec
+- MPU9250 motion processing unit including DMP
+- .....  LED string driver
+- SD card reader/writer
+- WiFI
+- BT/BLE
+- battery / charging
+- microphone
+- headset output
+- speakers outputs
+
+
 Here I describe tests of the board's features.
 
 ## Features of the board
