@@ -119,7 +119,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
 |---|----------|-------|---------|------------------|----|-----|----------|
 | 1 |          |this   |         |plays mp3 from web|E   |:+1: |          |
-| 2 |          |this   |         |plays mp3 from SD |D   |:black_medium_small_square: |      |
+| 2 |          |this   |         |plays mp3 from SD |D   |:black_medium_square: |      |
 | x |          |       |         |                  |D,E |     | [github.com/donny681](https://github.com/donny681/eps32_voice_record-WM8978-) |
 
 ### B. MPU9250 motion processing unit (incl. DMP)
