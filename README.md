@@ -89,6 +89,9 @@ https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only
 https://www.reddit.com/r/esp32/comments/93xwx8/ttgo_taudio/ and 
 https://github.com/whyengineer/esp32_snow
 
+### New links (not yet evaluated)
+https://github.com/hpsaturn/ttgotaudio
+
 ## Learning experiences during trials to upload some demos
 
 - The docs on the Github page suggests a demo on playing mp3 sound from an SD card. Burning this firmware and running did not succeed. 
