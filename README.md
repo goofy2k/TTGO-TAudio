@@ -35,7 +35,8 @@ In the end, an set of libraries should be available for the on board hardware (f
  - WiFi                                                                         TTGO_TAudio_arifshanji.ino
   - Play synthesized sound                                                      espTuto.ino from Faust project (ESP32 part)  ,  C++ code also available                               
   - LED array           WS2812 / Adafruit_NeoPixel                              TTGO_TAudio_RGB_LED.ino  (original light show firmware erased)
- - Motion processing unit MPU9250 with accelerometer, magnetometer, gyroscope   TTGO_TAudio_MPU9250.ino (test does not include gyroscope)
+ - Motion processing unit MPU9250 with accelerometer, magnetometer, gyroscope   TTGO_TAudio_MPU9250.ino (added gyroscope test)
+   - I start a new project on Calibration and Physics of the accelerometer, magnetometer and gryroscope (uese Arduino) 
 
 check presence in repo of all code files
 
@@ -68,7 +69,7 @@ Learn about code conversion. How to use C++ snippets or non-CMake C snippets in 
 ## Sources of examples
 
 
-#### Audio WM8978
+#### Audio WM8978 (datasheet is in repo)
  - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h) https://github.com/schreibfaul1/ESP32-audioI2S
  - In LilyGO/ TTGO-TAudio repo
  - In issues of LilyGO/ TTGO-TAudio repo
@@ -82,6 +83,7 @@ Learn about code conversion. How to use C++ snippets or non-CMake C snippets in 
  - https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/
  
 #### LEDS
+
 #### SD card reader
 https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
  
