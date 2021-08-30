@@ -68,6 +68,7 @@ Learn about code conversion. How to use C++ snippets or non-CMake C snippets in 
 
 ## Sources of examples
 
+Examples in Arduino libraries
 
 #### Audio WM8978 (datasheet is in repo)
  - In schreibfaul1/ESP32-audioI2S  (repo for Audio.h) https://github.com/schreibfaul1/ESP32-audioI2S
