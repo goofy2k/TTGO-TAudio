@@ -81,6 +81,7 @@ Learn about code conversion. How to use C++ snippets or non-CMake C snippets in 
 #### Motion processing unit MPU9250
  - https://github.com/kriswiner/MPU9250  repo with lots of documentation and examples
  - https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/
+ - https://github.com/wollewald/MPU9250_WE
  
 #### LEDS
 
