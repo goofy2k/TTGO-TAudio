@@ -7,13 +7,13 @@ When powered, the device runs a lightshow on the LED array.
 In the [Lilygo Github repo](https://github.com/LilyGO/TTGO-TAudio) the documentation on software is quite "thin". Yet, there is information on the hardware layout, connections, PINS, schematic etc.
 In the issues section of the supplier's repo some leads can be found.
 
-**This repo** is meant to kind of repair this lack of **documentation** on this board and it't applications. Any suggestions and/or contributions are welcome!
+**This repo** is meant to kind of repair this lack of **documentation** on this board and it's applications. Any suggestions and/or contributions are welcome!
 
 This repo is NOT meant to develop applications or software. This will be done in other projects. 
 
 -------------------------------------------------------------------------------------------------------------
 Here I describe ongiong tests of the board's features and discovery of relevant code examples and libraries.
-In the end, an set of libraries should be available for the on board hardware (functional chips):
+In the end, a set of libraries should be available for the on board hardware (functional chips):
 
 - WM8978 audio codec
 - MPU9250 motion processing unit including DMP
@@ -88,7 +88,8 @@ Examples in Arduino libraries
 #### LEDS
 
 #### SD card reader
-https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
+- https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
+- find references to sdmmc_cmd in the Lilygo repo
  
 #### General
 https://www.reddit.com/r/esp32/comments/93xwx8/ttgo_taudio/ and 
