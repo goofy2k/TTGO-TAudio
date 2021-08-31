@@ -17,7 +17,7 @@ In the end, a set of libraries should be available for the on board hardware (fu
 
 - WM8978 audio codec
 - MPU9250 motion processing unit including DMP
-- .....  LED string driver
+- WS2812  LED string
 - SD card reader/writer
 - WiFI
 - BT/BLE
