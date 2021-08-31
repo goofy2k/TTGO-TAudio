@@ -89,7 +89,8 @@ Examples in Arduino libraries
 
 #### SD card reader
 - https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
-- find references to sdmmc_cmd in the Lilygo repo
+- https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/sdmmc.html
+- https://github.com/espressif/esp-idf/tree/b63ec47238fd6aa6eaa59f7ad3942cbdff5fcc1f/examples/storage/sd_card/sdmmc
  
 #### General
 https://www.reddit.com/r/esp32/comments/93xwx8/ttgo_taudio/ and 
