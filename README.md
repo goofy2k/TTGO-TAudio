@@ -183,6 +183,12 @@ cross-references:
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
+
+### F. Microphone
+cross-references: A8 
+| # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
+|---|----------|-------|---------|------------------|--------|-----|----------|
+
 ------------------------------------------------------------
 FIND EMOJIS on https://www.webfx.com/tools/emoji-cheat-sheet/
 :+1:  :red_circle: :black_circle: :white_check_mark:
