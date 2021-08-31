@@ -1,0 +1,5 @@
+source "C:/Users/Fred/esp-idf/components/app_update/Kconfig.projbuild"
+source "C:/Users/Fred/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/Fred/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/Fred/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/Users/Fred/esp_projects/sd_card/main/Kconfig.projbuild"
