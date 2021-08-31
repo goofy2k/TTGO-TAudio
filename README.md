@@ -90,7 +90,7 @@ Examples in Arduino libraries
 #### SD card reader
 - https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
 - https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/sdmmc.html
-- https://github.com/espressif/esp-idf/tree/b63ec47238fd6aa6eaa59f7ad3942cbdff5fcc1f/examples/storage/sd_card/sdmmc
+- https://github.com/espressif/esp-idf/tree/b63ec47238fd6aa6eaa59f7ad3942cbdff5fcc1f/examples/storage/sd_card/sdmmc OK, example works !
  
 #### General
 https://www.reddit.com/r/esp32/comments/93xwx8/ttgo_taudio/ and 
@@ -166,7 +166,9 @@ Often, examples depend on more than one hardware component. To prevent double en
 cross-references: 
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 | C++ |this   | card.h ?? |reported to be working according to discussion in Lilygo issues, to be checked |   |   | [github.com/MisterRager](https://github.com/MisterRager/RingThing)|
+| 1 | C++ |this   | card.h ?? |reported to be working according to discussion in Lilygo issues, to be checked |   |:+1:| [github.com/MisterRager](https://github.com/MisterRager/RingThing)|
+| 2 | C   |ESP32   | sdmmc_host, sdmmc_cmd |reported to be working according to discussion in Lilygo issues, to be checked |   |   | [github.com/espressif](https://github.com/espressif/esp-idf/blob/b63ec47238fd6aa6eaa59f7ad3942cbdff5fcc1f/examples/storage/sd_card/sdmmc/main/sd_card_example_main.c)
+
 
 
 
