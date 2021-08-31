@@ -87,6 +87,9 @@ Examples in Arduino libraries
  
 #### LEDS
 
+ - one example working, but poor quality
+ - looking for nicer demo's 
+
 #### SD card reader
 - https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
 - https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/storage/sdmmc.html
@@ -133,7 +136,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 
 :+1: in Q means: working example available, these will be placed in the repo.
 
-### A. WM8978 audio codec
+### A. WM8978 audio codec :+1:
 | # | Platform | Board |Libraries|Remarks          |Xrefs| Q   | Reference |
 |---|----------|-------|---------|------------------|----|-----|----------|
 | 1 |  Arduino        |this   | see: TTGO_TAudio_arifshanji.ino        |plays mp3 from web     |E   |:+1: | sketch derived from arifshanji in follow-up on issue on Lilygo repo          |
@@ -147,7 +150,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 
 
 
-### B. MPU9250 motion processing unit (incl. DMP)
+### B. MPU9250 motion processing unit (incl. DMP) :+1:
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 | 1 | Arduino | this | MPU9250_asukiaaa.h | mag, accel,I added gyro|  |:+1:|[github.com/asukiaaa/MPU9250](https://github.com/asukiaaa/MPU9250_asukiaaa)   |
@@ -162,7 +165,7 @@ Often, examples depend on more than one hardware component. To prevent double en
 | 1 | Arduino |this   | Adafruit NeoPixel.h | is less buitiful than the original firmware  |    | :+1: |  [github.com/LilyGO](https://github.com/LilyGO/TTGO-TAudio/tree/master/RGB_LED)  |  
 | 2 | --- |  |   | --- |
 
-### D. SD card reader/writer
+### D. SD card reader/writer :+1:
 cross-references: 
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
@@ -170,14 +173,15 @@ cross-references:
 | 2 | C   |ESP32   | sdmmc_host, sdmmc_cmd |reported to be working according to discussion in Lilygo issues, to be checked |   |:+1:| [github.com/espressif](https://github.com/espressif/esp-idf/blob/b63ec47238fd6aa6eaa59f7ad3942cbdff5fcc1f/examples/storage/sd_card/sdmmc/main/sd_card_example_main.c)
 
 
-
-
-### E. WiFi
+### E. WiFi :+1:
 cross-references: A1,A2,A8
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
 
-
+### F. Bluetooth
+cross-references: 
+| # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
+|---|----------|-------|---------|------------------|--------|-----|----------|
 
 ------------------------------------------------------------
 FIND EMOJIS on https://www.webfx.com/tools/emoji-cheat-sheet/
