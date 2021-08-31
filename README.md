@@ -166,8 +166,8 @@ Often, examples depend on more than one hardware component. To prevent double en
 cross-references: 
 | # | Platform | Board |Libraries|Remarks          | Xrefs  | Q   | Reference |
 |---|----------|-------|---------|------------------|--------|-----|----------|
-| 1 | C++ |this   | card.h ?? |reported to be working according to discussion in Lilygo issues, to be checked |   |:+1:| [github.com/MisterRager](https://github.com/MisterRager/RingThing)|
-| 2 | C   |ESP32   | sdmmc_host, sdmmc_cmd |reported to be working according to discussion in Lilygo issues, to be checked |   |   | [github.com/espressif](https://github.com/espressif/esp-idf/blob/b63ec47238fd6aa6eaa59f7ad3942cbdff5fcc1f/examples/storage/sd_card/sdmmc/main/sd_card_example_main.c)
+| 1 | C++ |this   | card.h ?? |reported to be working according to discussion in Lilygo issues, to be checked |   |   | [github.com/MisterRager](https://github.com/MisterRager/RingThing)|
+| 2 | C   |ESP32   | sdmmc_host, sdmmc_cmd |reported to be working according to discussion in Lilygo issues, to be checked |   |:+1:| [github.com/espressif](https://github.com/espressif/esp-idf/blob/b63ec47238fd6aa6eaa59f7ad3942cbdff5fcc1f/examples/storage/sd_card/sdmmc/main/sd_card_example_main.c)
 
 
 
