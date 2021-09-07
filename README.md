@@ -84,6 +84,7 @@ Examples in Arduino libraries
  - https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/
  - https://github.com/wollewald/MPU9250_WE
  - https://github.com/bolderflight/mpu9250
+ - https://github.com/wollewald/MPU9250_WE
  
 #### LEDS
 
