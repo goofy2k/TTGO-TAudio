@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TTGO-TAudio (draft in progress)
 
 Got shipped a TTGO TAudio 9 V1.6, manufactured by Lilygo.
