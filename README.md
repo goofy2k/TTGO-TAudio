@@ -80,6 +80,12 @@ Examples in Arduino libraries
  - WM8978 docs (e.g. equalizer function)
  - Google: TTGO-TAudio use cases / examples / projects
  - [98/95 dB Stereo Codec with Speaker Driver!](https://www.cirrus.com/products/wm8978/)
+ - [Get Started — Audio Development Framework documentation (ESP-ADF)](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/index.html)
+ - [Espressif Audio Development Guide](https://docs.espressif.com/projects/esp-adf/en/latest/)
+ - [ESP-ADF on Github](https://github.com/espressif/esp-adf)
+ - [ESP-ADF forum](https://esp32.com/viewforum.php?f=20)
+ - 
+ - 
 #### Motion processing unit MPU9250
  - https://github.com/kriswiner/MPU9250  repo with lots of documentation and examples
  - https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/
