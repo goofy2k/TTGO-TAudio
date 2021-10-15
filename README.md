@@ -79,6 +79,7 @@ Examples in Arduino libraries
  - Cellie @CelliesProjects https://github.com/CelliesProjects
  - WM8978 docs (e.g. equalizer function)
  - Google: TTGO-TAudio use cases / examples / projects
+ - [98/95 dB Stereo Codec with Speaker Driver!](https://www.cirrus.com/products/wm8978/)
 #### Motion processing unit MPU9250
  - https://github.com/kriswiner/MPU9250  repo with lots of documentation and examples
  - https://www.seeedstudio.com/blog/2020/06/17/how-to-use-an-mpu9250-accelerometer-and-gyroscope-with-arduino/
