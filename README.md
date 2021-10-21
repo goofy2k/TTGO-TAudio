@@ -43,10 +43,10 @@ check presence in repo of all code files
 ### To be tested
 
  - Play sound WM8978                                               
-   - over headphone control volume (main, L/R channels?)  use TTGO_TAudio_arifshanji.ino
+   - over headphone control volume (main, L/R channels?)  DONE use TTGO_TAudio_arifshanji.ino
    - over board speakers,  control volume (main, L/R channels?), requires proper hardware
    - equalizer    extendTTGO_TAudio_arifshanji.ino
- - MPU gyroscope, extend TTGO_TAudio_MPU9250.ino
+ - MPU gyroscope, DONE extend TTGO_TAudio_MPU9250.ino
  - Microphone           ,  control volume?   DONE
  - Recording function        microphone?, line in?, i2S in ?
  - SD card
