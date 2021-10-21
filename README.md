@@ -47,7 +47,7 @@ check presence in repo of all code files
    - over board speakers,  control volume (main, L/R channels?), requires proper hardware
    - equalizer    extendTTGO_TAudio_arifshanji.ino
  - MPU gyroscope, extend TTGO_TAudio_MPU9250.ino
- - Microphone           ,  control volume? 
+ - Microphone           ,  control volume?   DONE
  - Recording function        microphone?, line in?, i2S in ?
  - SD card
    - read / write 
