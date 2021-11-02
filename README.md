@@ -97,9 +97,11 @@ Examples in Arduino libraries
  - one example working, but poor quality
  - looking for nicer demo's
  - added layout.xlsx and a screenshot with a description of the layout of the LED array
+ONE OF THE FOLLOWING EXAMPLES IS BASED ON RMT... be carefull
  - https://github.com/Lucas-Bruder/ESP32_LED_STRIP
  - https://github.com/samguyer/FastLED
- - https://github.com/CalinRadoni/esp32_digitalLEDs
+ - https://github.com/CalinRadoni/esp32_digitalLEDs  
+ - https://github.com/ogochan/neopixel-idf
 
 #### SD card reader
 - https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
