@@ -97,6 +97,7 @@ Examples in Arduino libraries
  - one example working, but poor quality
  - looking for nicer demo's
  - added layout.xlsx and a screenshot with a description of the layout of the LED array
+ - https://github.com/Lucas-Bruder/ESP32_LED_STRIP
 
 #### SD card reader
 - https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
