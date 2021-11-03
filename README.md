@@ -103,6 +103,7 @@ ONE OF THE FOLLOWING EXAMPLES IS BASED ON RMT... be carefull
  - https://github.com/CalinRadoni/esp32_digitalLEDs  
  - https://github.com/ogochan/neopixel-idf
  - https://blog.ja-ke.tech/2019/06/02/neopixel-performance.html  VERY VERY informative about the basic control and different implementations
+ - https://github.com/Jakeler/NeoPixel-Performance the repo with the above blog
 
 #### SD card reader
 - https://github.com/climufat/TTGO_mp3_player,  stripped down Liligo example. Only SD card and WM8978. No WiFi.   C++ ESP-IDF NOK
